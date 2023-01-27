@@ -8,21 +8,16 @@
 
 
 Console.WriteLine("Введите размер массива X x Y x Z:");
-int x = InputNumbers("Введите X: ");
-int y = InputNumbers("Введите Y: ");
-int z = InputNumbers("Введите Z: ");
-Console.WriteLine(" ");
+Console.Write("Введите X: ");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите Y: ");
+int y = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите Z: ");
+int z = Convert.ToInt32(Console.ReadLine());
 
 int[,,] array3D = new int[x, y, z];
 CreateArray(array3D);
 WriteArray(array3D);
-
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
 
 void WriteArray (int[,,] array3D)
 {

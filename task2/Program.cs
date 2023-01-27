@@ -8,9 +8,12 @@
 
 
 Console.WriteLine("Ниже вам необходимо внести размер массива m x n и диапазон случайных значений.");
-int m = InputNumbers("Введите m: ");
-int n = InputNumbers("Введите n: ");
-int range = InputNumbers("Введите диапазон: от 1 до ");
+Console.Write("Введите m: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите диапазон: от 1 до ");
+int range = Convert.ToInt32(Console.ReadLine());
 
 int[,] array = new int[m, n];
 CreateArray(array);
@@ -41,12 +44,6 @@ int SumLineElements(int[,] array, int i)
   return sumLine;
 }
 
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
 
 void CreateArray(int[,] array)
 {

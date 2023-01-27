@@ -6,10 +6,14 @@
 // 18 20
 // 15 18
 Console.WriteLine("Ниже введите размеры матриц и диапазон случайных значений.");
-int m = InputNumbers("Введите число строк 1-й матрицы: ");
-int n = InputNumbers("Введите число столбцов 1-й матрицы (и строк 2-й): ");
-int p = InputNumbers("Введите число столбцов 2-й матрицы: ");
-int range = InputNumbers("Введите диапазон случайных чисел: от 1 до ");
+Console.Write("Введите число строк 1-й матрицы: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число столбцов 1-й матрицы (и строк 2-й): ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число столбцов 2-й матрицы: ");
+int p = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите диапазон случайных чисел: от 1 до ");
+int range = Convert.ToInt32(Console.ReadLine());
 
 int[,] firstMartrix = new int[m, n];
 CreateArray(firstMartrix);
