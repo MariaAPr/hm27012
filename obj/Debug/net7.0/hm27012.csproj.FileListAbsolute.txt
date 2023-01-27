@@ -1,0 +1,15 @@
+C:\hm27012\obj\Debug\net7.0\hm27012.csproj.AssemblyReference.cache
+C:\hm27012\obj\Debug\net7.0\hm27012.GeneratedMSBuildEditorConfig.editorconfig
+C:\hm27012\obj\Debug\net7.0\hm27012.AssemblyInfoInputs.cache
+C:\hm27012\obj\Debug\net7.0\hm27012.AssemblyInfo.cs
+C:\hm27012\obj\Debug\net7.0\hm27012.csproj.CoreCompileInputs.cache
+C:\hm27012\bin\Debug\net7.0\hm27012.exe
+C:\hm27012\bin\Debug\net7.0\hm27012.deps.json
+C:\hm27012\bin\Debug\net7.0\hm27012.runtimeconfig.json
+C:\hm27012\bin\Debug\net7.0\hm27012.dll
+C:\hm27012\bin\Debug\net7.0\hm27012.pdb
+C:\hm27012\obj\Debug\net7.0\hm27012.dll
+C:\hm27012\obj\Debug\net7.0\refint\hm27012.dll
+C:\hm27012\obj\Debug\net7.0\hm27012.pdb
+C:\hm27012\obj\Debug\net7.0\hm27012.genruntimeconfig.cache
+C:\hm27012\obj\Debug\net7.0\ref\hm27012.dll
